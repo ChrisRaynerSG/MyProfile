@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Development Work</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        .navbar {
+            background-color: #ff6600;
+            /* Orange */
+        }
+
+        .navbar-brand,
+        .nav-link {
+            color: #ffffff !important;
+        }
+
+        .profile-header {
+            background-color: #ff6600;
+            /* Orange */
+            color: #ffffff;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .profile-img {
+            margin-top: 19px;
+            margin-left: 11px;
+            height: 200px;
+            width: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .profile-card {
+            margin-top: -20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .profile-picture-container {
+            position: relative;
+            overflow: hidden;
+        }
+        .section-title {
+            background-color: #ff6600; /* Orange */
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .section-content {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-top: 10px;
+            height: 200px;
+        }
+        .footer {
+            background-color: #ff6600; /* Orange */
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .form-container {
+            background-color: #f4f4f4; /* Light grey background for the form container */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-container label {
+            color: #ff6600; /* Orange label color */
+        }
+        .form-container input[type="search"] {
+            border: 1px solid #ff6600; /* Orange border for the search input */
+            border-radius: 4px;
+            padding: 10px;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+        .form-container input[type="submit"] {
+            background-color: #ff6600; /* Orange background for the submit button */
+            border: none;
+            color: #fff; /* White text color for the submit button */
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .form-container input[type="submit"]:hover {
+            background-color: #e65c00; /* Darker orange on hover */
+        }
+        .globe-image{
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html">My Profile</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/chris-rayner-9277977b/"
+                        target="_blank">LinkedIn</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/ChrisRaynerSG" target="_blank">GitHub</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.youtube.com/carnasa">YouTube Channel</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="section-title">Spring World MVC Project</div>
+                <div class="section-content">
+                    <div>
+                        A <a href="https://github.com/tamistyping/WeekFiveTeamProject">project</a> to query the MySQL world database using Spring JPA, Spring REST and Spring MVC. Allows users with authentication the ability to modify the database.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="section-title">Java RPG Project</div>
+                <div class="section-content">
+                    An individual <a href="https://github.com/ChrisRaynerSG/Java_RPG_Game">project</a> to practice java and JDBC fundamentals by creating a simple RPG game.
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="section-title">Sakila MVC Project</div>
+                <div class="section-content">
+
+                    An individual <a href="https://github.com/ChrisRaynerSG/Java_RPG_Game">project</a> to practice Spring JPA, Spring REST and Spring MVC by developing a site to query the MySQL Sakila database.
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="section-title">Project coming soon</div>
+                <div class="section-content">
+                    
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="section-title">Project coming soon</div>
+                <div class="section-content">
+                
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="section-title">Project coming soon</div>
+                <div class="section-content">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="section-title">Project coming soon</div>
+                <div class="section-content">
+                    
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="section-title">Project coming soon</div>
+                <div class="section-content">
+                
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="section-title">Project coming soon</div>
+                <div class="section-content">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <h3></h3>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="form-container">
+                        <form id="myform" action="https://www.bbc.co.uk/search">
+                            <div class="form-group">
+                                <label for="mysearch">Search for:</label>
+                                <input id="mysearch" name="q" type="search" class="form-control" placeholder="Search">
+                            </div>
+                            <input class="btn btn-primary" type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        <p>&copy; 2024 Christopher Rayner. All rights reserved.</p>
+        <p>Website by Christopher Rayner</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
